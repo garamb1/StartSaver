@@ -1,5 +1,5 @@
 # StartSaver
-![Screen](StartSaver/Images.xcassets/AppIcon.appiconset/Icon_256x256@2x.png)
+![Screen](StartSaver/Images.xcassets/AppIcon.appiconset/Icon_256x256.png)
 
 A really basic OSX Menu Bar app that starts the screensaver or locks the screen
 
