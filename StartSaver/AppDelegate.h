@@ -10,6 +10,7 @@
 
 @interface AppDelegate : NSControl
 
-
+-(void)startScreenSaver;
+-(void)lockScreen;
 
 @end

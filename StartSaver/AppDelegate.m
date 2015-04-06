@@ -30,7 +30,7 @@
     
     NSStatusBar *statusBar = [NSStatusBar systemStatusBar];
     statusItem = [statusBar statusItemWithLength:NSVariableStatusItemLength];
-    [statusItem setImage:[NSImage imageNamed:@"Icon.png"]];
+    [statusItem setImage:[NSImage imageNamed:@"MenuBarIcon"]];
     [statusItem setToolTip:@"Start Saver"];
     [statusItem setHighlightMode:YES];
     [statusItem setMenu:theMenu];
@@ -47,7 +47,7 @@
     
     if(script == nil)
     {
-        NSLog( @"Non ho trovato lo script a %@ - %@", [urlOfScript absoluteURL], [error localizedDescription] );
+        NSLog( @"Could not find script at %@ - %@", [urlOfScript absoluteURL], [error localizedDescription] );
     }
     
     [script executeAndReturnError:nil];
@@ -61,7 +61,7 @@
     
     if(script == nil)
     {
-        NSLog( @"Non ho trovato lo script a %@ - %@", [urlOfScript absoluteURL], [error localizedDescription] );
+        NSLog( @"Could not find script at %@ - %@", [urlOfScript absoluteURL], [error localizedDescription] );
     }
     
     [script executeAndReturnError:nil];

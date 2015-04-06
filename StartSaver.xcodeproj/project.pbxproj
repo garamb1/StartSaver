@@ -18,7 +18,6 @@
 		035ACFAD197FCFB800099C9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035ACF8C197FCFB700099C9D /* Cocoa.framework */; };
 		035ACFB5197FCFB800099C9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035ACFB3197FCFB800099C9D /* InfoPlist.strings */; };
 		035ACFB7197FCFB800099C9D /* StartSaverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 035ACFB6197FCFB800099C9D /* StartSaverTests.m */; };
-		035ACFCE197FEC2E00099C9D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 035ACFCD197FEC2E00099C9D /* Icon.png */; };
 		03C969E419B724DA0043D1EB /* lock.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 03C969E219B724DA0043D1EB /* lock.scpt */; };
 		03C969E519B724DA0043D1EB /* lock.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 03C969E219B724DA0043D1EB /* lock.scpt */; };
 		03C969E619B724DA0043D1EB /* saver.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 03C969E319B724DA0043D1EB /* saver.scpt */; };
@@ -55,7 +54,6 @@
 		035ACFB2197FCFB800099C9D /* StartSaverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StartSaverTests-Info.plist"; sourceTree = "<group>"; };
 		035ACFB4197FCFB800099C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		035ACFB6197FCFB800099C9D /* StartSaverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartSaverTests.m; sourceTree = "<group>"; };
-		035ACFCD197FEC2E00099C9D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		03C969E219B724DA0043D1EB /* lock.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = lock.scpt; sourceTree = "<group>"; };
 		03C969E319B724DA0043D1EB /* saver.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = saver.scpt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +84,6 @@
 			children = (
 				03C969E219B724DA0043D1EB /* lock.scpt */,
 				03C969E319B724DA0043D1EB /* saver.scpt */,
-				035ACFCD197FEC2E00099C9D /* Icon.png */,
 				035ACF92197FCFB700099C9D /* StartSaver */,
 				035ACFB0197FCFB800099C9D /* StartSaverTests */,
 				035ACF8B197FCFB700099C9D /* Frameworks */,
@@ -241,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				035ACFCE197FEC2E00099C9D /* Icon.png in Resources */,
 				035ACF97197FCFB700099C9D /* InfoPlist.strings in Resources */,
 				035ACFA5197FCFB700099C9D /* Images.xcassets in Resources */,
 				035ACF9D197FCFB700099C9D /* Credits.rtf in Resources */,
